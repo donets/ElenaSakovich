@@ -1,0 +1,295 @@
+body {
+    width: 1510px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 144px;
+    height: 370px;
+    color: #fff;
+    // padding: 10px auto 10px;
+    margin: 0 auto 0;
+}
+h3 {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 81px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(/image/bird.png);
+}
+.header-background {
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+.container {
+    width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    a {
+        padding: 40px 0 29px;
+    }
+    .nav-menu {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        li {
+            width: 114px;
+            height: 100px;
+            line-height: 100px;
+            list-style: none;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        li span {
+            color: #F4BF87;
+            border-bottom: 1px solid #F4BF87;
+            // border: 83px;
+            padding: 42px 18px 4px;
+        }
+        li.image {
+            width: 50px;
+        }
+        li.img {
+            width: 27px;
+        }
+    }
+}
+.title {
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    height: 80px;
+    margin: 77px auto 0;
+    padding: 0;
+    color: #fff;
+}
+.divider {
+    width: 170px;
+    margin: 44px auto 74px;
+    border: 2px solid #fff;
+}
+button {
+    width: 369px;
+    height: 78px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: 4px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 0;
+}
+button:hover {
+    background-color: #fff;
+    color:#E4BE8D;
+    border: none;
+}
+button:active {
+    background-color: #fff;
+    color:#E4BE8D;
+    border: 4px solid #E4BE8D;
+}
+.lines {
+    width: 1170px;
+    display: flex;
+    gap: 30px;
+    margin-top: 116px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    height: 85px;
+    color: #fff;
+    p {
+        margin: 5px auto;
+        line-height: 45px;
+    }
+    .slider:first-child {
+        // margin: auto;
+        .white {
+            border: 4px solid #fff;
+            width: 270px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            margin: 0 ;
+            color: #fff;
+        }
+        .orange-line {
+            position: absolute;
+            width: 70px;
+            border: 4px solid #F38281;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            margin: 0 0;
+        }
+    }
+    .slider:last-child {
+        gap: 0;
+        // margin: 0;
+        padding: 0;
+    }
+}
+.slider {
+    .beige {
+        width: 266px;
+        border-left: 0;
+        border-right: 0;
+        margin: 0;
+        border: 2px solid #F9EFCF;
+    }
+    p {
+        width: 270px;
+        text-align: start;
+    }
+    p span {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+    }
+}
+.data {
+    margin: 42px 0;
+}
+.subtitle {
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    line-height: 81px;
+    padding: 0;
+}
+.orange {
+    width: 170px;
+    border: 2px solid #F38281;
+    margin: 24px auto 0;
+}
+.about {
+    padding: 38px 0;
+    margin: 0;
+}
+.images {
+    display: flex;
+    gap: 30px;
+    margin: 58px 0 108px;
+}
+.numbers {
+    width: 1510px;
+    background-color:#95E1D3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 108px 0 0;
+    .number {
+        width: 234px;
+        border: 1px solid #fff;
+        text-align: center;
+        padding:37px 0 36px;
+        p span {
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 75px;
+        }
+    }
+}
+.number:first-child {
+    color: #95E1D3;
+    width: 170px;
+}
+.number:last-child {
+    color: #95E1D3;
+    width: 170px;
+}
+.block {
+    margin: 0 0 91px;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 88px auto 0;
+    justify-content: center;
+    img {
+        width: 63px;
+        height: 55px;
+    }
+    .item {
+        display: flex;
+        width: 390px;
+        margin-bottom: 148px;
+        
+    }
+    .item-bottom {
+        display: flex;
+        width: 390px;
+        margin-bottom: 0;
+
+    }
+}
+.explanation {
+    margin-left: 33px;
+    text-align: left;
+    .item-title {
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 10px 0 11px;
+    }
+    .item-subtitle {
+        width: 270px;
+        margin: 19px 0;
+    }
+}
+.page {
+    background-image: url(/image/mountains.png);
+    background-repeat: no-repeat;
+    height: 868px;
+    margin: 0;
+}
+.page-background {
+    background: rgba(255, 255, 255, 0.5);
+    height: 868px;
+    .devices {
+        position: relative;
+        margin:59px 0 57px;
+        .tablet {
+            border: 18px solid #000;
+            border-radius: 20px;
+        }
+    }
+}
+.page__subtitle {
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    line-height: 81px;
+    padding: 42px 0 0;
+}
+.phone {
+    position: absolute;
+    top: 212px; 
+    left: 770px;
+    border-radius: 35px;
+}

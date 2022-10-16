@@ -1,0 +1,324 @@
+body {
+  width: 1510px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1 {
+  height: 370px;
+  color: #fff;
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 144px;
+  font-weight: 700;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 81px;
+}
+
+.header {
+  background-image: url("bird.090f1c0d.png");
+}
+
+.header-background {
+  background: linear-gradient(360deg, #edd789e6 0%, #e98283e6 100%);
+}
+
+.container {
+  width: 1170px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav {
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav a {
+  padding: 40px 0 29px;
+}
+
+.nav .nav-menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav .nav-menu li {
+  width: 114px;
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 100px;
+  list-style: none;
+}
+
+.nav .nav-menu li span {
+  color: #f4bf87;
+  border-bottom: 1px solid #f4bf87;
+  padding: 42px 18px 4px;
+}
+
+.nav .nav-menu li.image {
+  width: 50px;
+}
+
+.nav .nav-menu li.img {
+  width: 27px;
+}
+
+.title {
+  text-align: center;
+  height: 80px;
+  color: #fff;
+  margin: 77px auto 0;
+  padding: 0;
+  font-family: Kaushan Script;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.divider {
+  width: 170px;
+  border: 2px solid #fff;
+  margin: 44px auto 74px;
+}
+
+button {
+  width: 369px;
+  height: 78px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #0000;
+  border: 4px solid #fff;
+  padding: 0;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+button:hover {
+  color: #e4be8d;
+  background-color: #fff;
+  border: none;
+}
+
+button:active {
+  color: #e4be8d;
+  background-color: #fff;
+  border: 4px solid #e4be8d;
+}
+
+.lines {
+  width: 1170px;
+  text-transform: uppercase;
+  height: 85px;
+  color: #fff;
+  gap: 30px;
+  margin-top: 116px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  display: flex;
+}
+
+.lines p {
+  margin: 5px auto;
+  line-height: 45px;
+}
+
+.lines .slider:first-child .white {
+  width: 270px;
+  color: #fff;
+  border: 0;
+  border-bottom: 4px solid #fff;
+  margin: 0;
+}
+
+.lines .slider:first-child .orange-line {
+  width: 70px;
+  border: 0;
+  border-bottom: 4px solid #f38281;
+  margin: 0;
+  position: absolute;
+}
+
+.lines .slider:last-child {
+  gap: 0;
+  padding: 0;
+}
+
+.slider .beige {
+  width: 266px;
+  border: 2px solid #f9efcf;
+  margin: 0;
+}
+
+.slider p {
+  width: 270px;
+  text-align: start;
+}
+
+.slider p span {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.data {
+  margin: 42px 0;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  font-family: Kaushan Script;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 81px;
+}
+
+.orange {
+  width: 170px;
+  border: 2px solid #f38281;
+  margin: 24px auto 0;
+}
+
+.about {
+  margin: 0;
+  padding: 38px 0;
+}
+
+.images {
+  gap: 30px;
+  margin: 58px 0 108px;
+  display: flex;
+}
+
+.numbers {
+  width: 1510px;
+  color: #fff;
+  background-color: #95e1d3;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 108px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  display: flex;
+}
+
+.numbers .number {
+  width: 234px;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 37px 0 36px;
+}
+
+.numbers .number p span {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+.number:first-child, .number:last-child {
+  color: #95e1d3;
+  width: 170px;
+}
+
+.block {
+  margin: 0 0 91px;
+}
+
+.items {
+  flex-flow: wrap;
+  justify-content: center;
+  margin: 88px auto 0;
+  display: flex;
+}
+
+.items img {
+  width: 63px;
+  height: 55px;
+}
+
+.items .item {
+  width: 390px;
+  margin-bottom: 148px;
+  display: flex;
+}
+
+.items .item-bottom {
+  width: 390px;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.explanation {
+  text-align: left;
+  margin-left: 33px;
+}
+
+.explanation .item-title {
+  text-transform: uppercase;
+  margin: 10px 0 11px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.explanation .item-subtitle {
+  width: 270px;
+  margin: 19px 0;
+}
+
+.page {
+  height: 868px;
+  background-image: url("mountains.34f879a1.png");
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.page-background {
+  height: 868px;
+  background: #ffffff80;
+}
+
+.page-background .devices {
+  margin: 59px 0 57px;
+  position: relative;
+}
+
+.page-background .devices .tablet {
+  border: 18px solid #000;
+  border-radius: 20px;
+}
+
+.page__subtitle {
+  margin: 0;
+  padding: 42px 0 0;
+  font-family: Kaushan Script;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 81px;
+}
+
+.phone {
+  border-radius: 35px;
+  position: absolute;
+  top: 212px;
+  left: 770px;
+}
+
+/*# sourceMappingURL=index.8368275b.css.map */
