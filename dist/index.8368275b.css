@@ -48,14 +48,13 @@ h3 {
 }
 
 .nav .nav-menu {
-  margin: 0;
+  margin: 0 0 0 402px;
   padding: 0;
   display: flex;
 }
 
 .nav .nav-menu li {
   width: 114px;
-  height: 100px;
   text-align: center;
   color: #fff;
   text-transform: uppercase;
@@ -72,7 +71,7 @@ h3 {
 }
 
 .nav .nav-menu li.image {
-  width: 50px;
+  width: 73px;
 }
 
 .nav .nav-menu li.img {

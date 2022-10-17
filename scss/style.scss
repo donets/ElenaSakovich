@@ -41,11 +41,10 @@ h3 {
     }
     .nav-menu {
         display: flex;
-        margin: 0;
+        margin: 0 0 0 402px;
         padding: 0;
         li {
             width: 114px;
-            height: 100px;
             line-height: 100px;
             list-style: none;
             text-align: center;
@@ -57,11 +56,10 @@ h3 {
         li span {
             color: #F4BF87;
             border-bottom: 1px solid #F4BF87;
-            // border: 83px;
             padding: 42px 18px 4px;
         }
         li.image {
-            width: 50px;
+            width: 73px;
         }
         li.img {
             width: 27px;
