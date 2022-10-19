@@ -500,9 +500,9 @@ button:active {
   display: flex;
 }
 
-.photos img {
+.photos a img {
   width: 378px;
-  height: 378px;
+  height: 376px;
 }
 
 .work, .build, .houses {
@@ -539,6 +539,11 @@ button:active {
   font-family: Kaushan Script;
   font-size: 30px;
   font-weight: 400;
+}
+
+.customers {
+  justify-content: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */

@@ -437,12 +437,12 @@ button:active {
     margin: 84px 0;
 }
 .photos {
+    display: flex;
     margin: 0;
     border: none;
-    display: flex;
-    img {
+    a img {
         width: 378px;
-        height: 378px;
+        height: 376px;
     }
 }
 .work , .build , .houses {
@@ -475,4 +475,8 @@ button:active {
     font-size: 30px;
     // width: 644px;
     margin: 20px 0 0 56px;
+}
+.customers {
+    display: flex;
+    justify-content: center;
 }
