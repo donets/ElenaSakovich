@@ -191,7 +191,7 @@ button:active {
 }
 
 .orange {
-  width: 170px;
+  width: 166px;
   border: 2px solid #f38281;
   margin: 24px auto 0;
 }
@@ -495,14 +495,13 @@ button:active {
 }
 
 .photos {
-  border: none;
   margin: 0;
   display: flex;
 }
 
 .photos a img {
   width: 378px;
-  height: 376px;
+  height: 378px;
 }
 
 .work, .build, .houses {
@@ -541,9 +540,49 @@ button:active {
   font-weight: 400;
 }
 
+.clients__subtitle {
+  margin: 0;
+  padding: 42px 0 0;
+  font-family: Kaushan Script;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 81px;
+}
+
 .customers {
   justify-content: center;
+  gap: 50px;
+  margin-top: 42px;
   display: flex;
+}
+
+.couple .man, .couple .woman {
+  display: flex;
+}
+
+.personality {
+  width: 370px;
+  text-align: start;
+  margin: 0 0 0 50px;
+}
+
+.personality .personality-title {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.personality .profession-title {
+  text-transform: uppercase;
+  margin: 0 0 9px;
+  line-height: 19px;
+}
+
+.personality .about-photo {
+  margin: 0;
+  padding: 32px 0 42px;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */
