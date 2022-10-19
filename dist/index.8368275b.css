@@ -186,7 +186,6 @@ button:active {
   padding: 0;
   font-family: Kaushan Script;
   font-size: 30px;
-  font-weight: 400;
   line-height: 81px;
 }
 
@@ -540,6 +539,18 @@ button:active {
   font-weight: 400;
 }
 
+.clients {
+  height: 923px;
+  background-image: url("nature.921b9164.png");
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.clients__background {
+  height: 923px;
+  background-color: #ffffff80;
+}
+
 .clients__subtitle {
   margin: 0;
   padding: 42px 0 0;
@@ -568,6 +579,7 @@ button:active {
 
 .personality .personality-title {
   text-transform: uppercase;
+  color: #2d3033;
   margin: 0;
   font-size: 24px;
   font-weight: 700;
@@ -582,7 +594,26 @@ button:active {
 
 .personality .about-photo {
   margin: 0;
-  padding: 32px 0 42px;
+  padding: 38px 0 39px;
+}
+
+.stories {
+  margin: 84px 0;
+}
+
+.stories .stories__subtitle {
+  margin: 0;
+  padding: 0;
+  font-family: Kaushan Script;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 81px;
+}
+
+.objects {
+  gap: 30px;
+  margin-top: 42px;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */
