@@ -273,7 +273,7 @@ button:active {
         }
     }
 }
-.page__subtitle {
+.page-subtitle {
     font-family: 'Kaushan Script';
     font-weight: 400;
     font-size: 30px;
@@ -290,7 +290,7 @@ button:active {
 .service {
     margin-bottom: 114px;
 }
-.service__subtitle {
+.service-subtitle {
     font-family: 'Kaushan Script';
     font-weight: 400;
     font-size: 30px;
@@ -482,7 +482,7 @@ button:active {
     margin: 0;
 }
 .clients__background {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     height: 923px;
 }
 .clients__subtitle {
@@ -515,7 +515,6 @@ button:active {
         line-height: 52px;
         margin: 0;
         color: #2D3033;
-
     }
     .profession-title {
         text-transform: uppercase;
@@ -535,13 +534,48 @@ button:active {
         font-weight: 400;
         font-size: 30px;
         margin: 0;
-        line-height: 81px;
+        line-height: 80px;
         padding: 0;
     }
+}
+.b-container {
+    position: relative;
+    width: 1184px;
+    margin: 0 auto;
+    text-align: center;
 }
 .objects {
     display: flex;
     gap: 30px;
     margin-top: 42px;
+    .object {
+        .object-title {
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: uppercase;
+        line-height: 40px;
+        margin: 30px 0 0 0;
+        color: #2D3033;
+        }
+        .object-subtitle {
+            margin: 0;
+            padding: 8px 0 7px;
+            text-align: start;
+        }
+    }
+    .statistics {
+        display: flex;
+        gap: 18px;
+        margin: 19px 0 0 2px;
+        // line-height: 32px;
+        .amount {
+            font-size: 13px;
+            margin: 3px;
+            padding: 0;
+        }
+    }
+}
+.object:first-child {
+    margin-left: 14px;
 }
 

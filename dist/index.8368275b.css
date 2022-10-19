@@ -304,7 +304,7 @@ button:active {
   border-radius: 20px;
 }
 
-.page__subtitle {
+.page-subtitle {
   margin: 0;
   padding: 42px 0 0;
   font-family: Kaushan Script;
@@ -324,7 +324,7 @@ button:active {
   margin-bottom: 114px;
 }
 
-.service__subtitle {
+.service-subtitle {
   margin: 0;
   padding: 42px 0 0;
   font-family: Kaushan Script;
@@ -548,7 +548,7 @@ button:active {
 
 .clients__background {
   height: 923px;
-  background-color: #ffffff80;
+  background-color: #ffffffe6;
 }
 
 .clients__subtitle {
@@ -607,13 +607,51 @@ button:active {
   font-family: Kaushan Script;
   font-size: 30px;
   font-weight: 400;
-  line-height: 81px;
+  line-height: 80px;
+}
+
+.b-container {
+  width: 1184px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
 }
 
 .objects {
   gap: 30px;
   margin-top: 42px;
   display: flex;
+}
+
+.objects .object .object-title {
+  text-transform: uppercase;
+  color: #2d3033;
+  margin: 30px 0 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.objects .object .object-subtitle {
+  text-align: start;
+  margin: 0;
+  padding: 8px 0 7px;
+}
+
+.objects .statistics {
+  gap: 18px;
+  margin: 19px 0 0 2px;
+  display: flex;
+}
+
+.objects .statistics .amount {
+  margin: 3px;
+  padding: 0;
+  font-size: 13px;
+}
+
+.object:first-child {
+  margin-left: 14px;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */
