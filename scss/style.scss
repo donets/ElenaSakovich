@@ -352,17 +352,27 @@ button:active {
     text-align: center;
 }
 .blockquote {
-    display: flex;
     width: 1147px;
     margin: 0 auto;
+    padding: 42px 0;
 }
 .review {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    .right {
+        margin-left: 48px;
+    }
 }
 .idea {
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+    color: #A9AFB1;
     width: 770px;
+    height: 96px;
+    margin: 0 0 0 30px;
+    text-align: start;
 }
 .small-line {
     width: 70px;
@@ -371,15 +381,26 @@ button:active {
     border-right: 0;
     border-left: 0;
     margin: 0;
-
+    height: 1px;
+    padding-top: 23px;
 }
 .info {
-    display: flex;
+    position: absolute;
+    display: inline-flex;
+    margin-top: 117px;
+    margin-left: -349px;
+}
+.Jon {
+    height: 53px;
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 30px;
+    // width: 644px;
+    margin: 0 0 0 56px;
 }
 .team {
     margin: 84px 0;
 }
-
 .pictures {
     display: flex;
     gap: 30px;
@@ -413,33 +434,45 @@ button:active {
     }
 }
 .block-images {
-    margin-top: 84px;
+    margin: 84px 0;
 }
 .photos {
     margin: 0;
     border: none;
     display: flex;
-    // flex-wrap: wrap;
     img {
         width: 378px;
+        height: 378px;
     }
 }
-.work {
-    display: flex;
-    flex-wrap: wrap;
-    // flex-direction: column;
-}
-.photos {
-    display: flex;
-    // flex-wrap: wrap;
-    // flex-direction: column;
-}
-.building {
-    display: flex;
-}
-.houses {
+.work , .build , .houses {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
+.building {
+    display: flex;
+    .construction {
+        height: 756px;
+    }
+}
+.block-cite {
+    margin: 41px 0 40px 0;
+}
+.left {
+    margin-right: 45px;
+}
+.block-info {
+    position: absolute;
+    display: inline-flex;
+    margin-top: 98px;
+    margin-left: -287px;
+}
+.James {
+    height: 53px;
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 30px;
+    // width: 644px;
+    margin: 20px 0 0 56px;
+}

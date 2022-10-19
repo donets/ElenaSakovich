@@ -399,7 +399,7 @@ button:active {
 .blockquote {
   width: 1147px;
   margin: 0 auto;
-  display: flex;
+  padding: 42px 0;
 }
 
 .review {
@@ -408,19 +408,43 @@ button:active {
   display: flex;
 }
 
+.review .right {
+  margin-left: 48px;
+}
+
 .idea {
+  color: #a9afb1;
   width: 770px;
+  height: 96px;
+  text-align: start;
+  margin: 0 0 0 30px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
 }
 
 .small-line {
   width: 70px;
+  height: 1px;
   border: 0;
   border-bottom: 4px solid #f38281;
   margin: 0;
+  padding-top: 23px;
 }
 
 .info {
-  display: flex;
+  margin-top: 117px;
+  margin-left: -349px;
+  display: inline-flex;
+  position: absolute;
+}
+
+.Jon {
+  height: 53px;
+  margin: 0 0 0 56px;
+  font-family: Kaushan Script;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .team {
@@ -467,7 +491,7 @@ button:active {
 }
 
 .block-images {
-  margin-top: 84px;
+  margin: 84px 0;
 }
 
 .photos {
@@ -478,20 +502,43 @@ button:active {
 
 .photos img {
   width: 378px;
+  height: 378px;
 }
 
-.work {
-  flex-wrap: wrap;
-  display: flex;
-}
-
-.photos, .building {
-  display: flex;
-}
-
-.houses {
+.work, .build, .houses {
   flex-flow: column wrap;
   display: flex;
+}
+
+.building {
+  display: flex;
+}
+
+.building .construction {
+  height: 756px;
+}
+
+.block-cite {
+  margin: 41px 0 40px;
+}
+
+.left {
+  margin-right: 45px;
+}
+
+.block-info {
+  margin-top: 98px;
+  margin-left: -287px;
+  display: inline-flex;
+  position: absolute;
+}
+
+.James {
+  height: 53px;
+  margin: 20px 0 0 56px;
+  font-family: Kaushan Script;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */
