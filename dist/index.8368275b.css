@@ -213,11 +213,11 @@ button:active {
   display: flex;
 }
 
-.bg {
+.super {
   position: relative;
 }
 
-.bg .fond {
+.super .fond {
   position: absolute;
   top: -16px;
   left: -16px;
