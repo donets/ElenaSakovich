@@ -452,6 +452,22 @@ button:active {
   display: flex;
 }
 
+.pictures .Kadin-bg {
+  position: relative;
+}
+
+.pictures .Kadin-bg .gradient {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+}
+
+.pictures .Kadin-bg .links {
+  position: absolute;
+  top: 191px;
+  right: 99px;
+}
+
 .pictures .main {
   line-height: 80px;
 }
@@ -493,6 +509,17 @@ button:active {
 .photos a img {
   width: 378px;
   height: 378px;
+}
+
+.photos .build .sky-bg {
+  position: relative;
+}
+
+.photos .build .sky-bg .sky-design {
+  width: 378px;
+  height: 378px;
+  position: absolute;
+  left: 0;
 }
 
 .work, .build, .houses {

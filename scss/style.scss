@@ -399,6 +399,19 @@ button:active {
     display: flex;
     gap: 30px;
     margin-top: 58px;
+    .Kadin-bg {
+        position: relative;
+        .gradient {
+            position: absolute;
+            top: -16px;
+            left: -16px;
+        }
+        .links {
+            position: absolute;
+            top: 191px;
+            right: 99px;
+        }
+    }
     .main {
         line-height: 80px;
     }
@@ -432,6 +445,15 @@ button:active {
     a img {
         width: 378px;
         height: 378px;
+    }
+    .build .sky-bg {
+        position: relative;
+        .sky-design {
+            position: absolute;
+            left: 0;
+            width: 378px;
+            height: 378px;
+        }
     }
 }
 .work , .build , .houses {
