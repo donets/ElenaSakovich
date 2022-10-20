@@ -442,9 +442,13 @@ button:active {
 .photos {
     display: flex;
     margin: 0;
-    a img {
+    a {
         width: 378px;
         height: 378px;
+        img {
+            width: 378px;
+            height: 378px;
+        }
     }
     .build .sky-bg {
         position: relative;
@@ -590,9 +594,6 @@ button:active {
     .MoGo {
         width: 370px;
         text-align: start;
-        .lg {
-            padding: 40px 0 22px;
-        }
         .followers {
             text-transform: uppercase;
             margin: 0;

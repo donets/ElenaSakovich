@@ -506,7 +506,7 @@ button:active {
   display: flex;
 }
 
-.photos a img {
+.photos a, .photos a img {
   width: 378px;
   height: 378px;
 }
@@ -680,10 +680,6 @@ button:active {
 .connect .MoGo {
   width: 370px;
   text-align: start;
-}
-
-.connect .MoGo .lg {
-  padding: 40px 0 22px;
 }
 
 .connect .MoGo .followers {
