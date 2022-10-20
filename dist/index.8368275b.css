@@ -574,6 +574,16 @@ button:active {
   display: flex;
 }
 
+.objects .object .date-object {
+  position: relative;
+}
+
+.objects .object .date-object .date {
+  position: absolute;
+  top: 148px;
+  left: -14px;
+}
+
 .objects .object .main {
   color: #2d3033;
   margin: 30px 0 0;
@@ -777,7 +787,7 @@ button:active {
   width: 1170px;
   border: 0;
   border-bottom: 1px solid #c6cbcd;
-  margin-top: 42px;
+  margin: 42px 0 0;
 }
 
 .copyright {

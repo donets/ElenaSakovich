@@ -502,6 +502,14 @@ button:active {
     gap: 30px;
     margin-top: 42px;
     .object {
+        .date-object {
+            position: relative;
+            .date {
+                position: absolute;
+                top: 148px;
+                left: -14px;
+            }
+        }
         .main {
         line-height: 40px;
         color: #2D3033;
@@ -577,7 +585,6 @@ button:active {
         .follow {
             display: flex;
             gap: 30px;
-            // margin: 0;
             .follow-text {
                 font-style: italic;
                 font-size: 13px;
@@ -676,7 +683,7 @@ button:active {
     border-right: 0;
     border-left: 0;
     border-bottom: 1px solid #C6CBCD;
-    margin-top: 42px;
+    margin: 42px 0 0;
 }
 .copyright {
     font-weight: 700;
