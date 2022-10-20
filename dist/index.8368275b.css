@@ -213,6 +213,16 @@ button:active {
   display: flex;
 }
 
+.bg {
+  position: relative;
+}
+
+.bg .fond {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+}
+
 .numbers {
   width: 1510px;
   color: #fff;

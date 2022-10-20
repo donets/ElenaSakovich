@@ -191,6 +191,14 @@ button:active {
     gap: 30px;
     margin: 58px 0 108px;
 }
+.bg {
+    position: relative;
+    .fond {
+        position: absolute;
+        top: -16px;
+        left: -16px;
+    }
+}
 .numbers {
     width: 1510px;
     background-color:#95E1D3;
