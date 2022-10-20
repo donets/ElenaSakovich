@@ -4,13 +4,12 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
-h3 {
-    font-family: 'Raleway';
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 81px;
+.main {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 52px;
     text-transform: uppercase;
-    margin: 0 auto;
+    margin: 0;
 }
 .header {
     background-image: url(/image/bird.png);
@@ -24,6 +23,13 @@ h3 {
     position: relative;
     margin: 0 auto;
     text-align: center;
+}
+.title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 81px;
+    margin: 0;
+    text-transform: uppercase;
 }
 .nav {
     display: flex;
@@ -166,7 +172,6 @@ button:active {
 }
 .subtitle {
     font-family: 'Kaushan Script';
-    // font-weight: 400;
     font-size: 30px;
     margin: 0;
     line-height: 81px;
@@ -244,12 +249,6 @@ button:active {
 .explanation {
     margin-left: 33px;
     text-align: left;
-    .item-title {
-        font-weight: 700;
-        font-size: 24px;
-        text-transform: uppercase;
-        margin: 10px 0 11px;
-    }
     .item-subtitle {
         width: 270px;
         margin: 19px 0;
@@ -273,9 +272,8 @@ button:active {
         }
     }
 }
-.page-subtitle {
+.b-subtitle {
     font-family: 'Kaushan Script';
-    font-weight: 400;
     font-size: 30px;
     margin: 0;
     line-height: 81px;
@@ -290,35 +288,23 @@ button:active {
 .service {
     margin-bottom: 114px;
 }
-.service-subtitle {
-    font-family: 'Kaushan Script';
-    font-weight: 400;
-    font-size: 30px;
-    margin: 0;
-    line-height: 81px;
-    padding: 42px 0 0;
-}
 .process {
     display: flex;
     gap: 30px;
     .details {
         width: 570px;
-    }
-    .process-title {
-        width: 370px;
-        font-weight: 700;
-        font-size: 24px;
-        text-transform: uppercase;
-        margin: 0;
-        padding: 32px 0;
-        text-align: left;
-    }
-    .process-subtitle {
-        text-align: start;
-        margin: 0;
-        padding: 18px 85px 18px 22px;
-        border: 1px solid #C6CBCD;
-        border-top: 0;
+        .main {
+            width: 370px;
+            line-height: 92px;
+            text-align: left;
+        }
+        .process-subtitle {
+            text-align: start;
+            margin: 0;
+            padding: 18px 85px 18px 22px;
+            border: 1px solid #C6CBCD;
+            border-top: 0;
+        }
     }
 }
 .icon {
@@ -390,7 +376,7 @@ button:active {
     margin-top: 117px;
     margin-left: -349px;
 }
-.Jon {
+.name {
     height: 53px;
     font-family: 'Kaushan Script';
     font-weight: 400;
@@ -405,13 +391,9 @@ button:active {
     display: flex;
     gap: 30px;
     margin-top: 58px;
-}
-.name-title {
-    font-weight: 700;
-    font-size: 24px;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 26px 0;
+    .main {
+        line-height: 80px;
+    }
 }
 .profession {
     text-transform: uppercase;
@@ -467,14 +449,6 @@ button:active {
     margin-top: 98px;
     margin-left: -287px;
 }
-.James {
-    height: 53px;
-    font-family: 'Kaushan Script';
-    font-weight: 400;
-    font-size: 30px;
-    // width: 644px;
-    margin: 20px 0 0 56px;
-}
 .clients {
     background-image: url(/image/nature.png);
     background-repeat: no-repeat;
@@ -484,14 +458,6 @@ button:active {
 .clients__background {
     background-color: rgba(255, 255, 255, 0.9);
     height: 923px;
-}
-.clients__subtitle {
-    font-family: 'Kaushan Script';
-    font-weight: 400;
-    font-size: 30px;
-    margin: 0;
-    line-height: 81px;
-    padding: 42px 0 0;
 }
 .customers {
     display: flex;
@@ -508,12 +474,7 @@ button:active {
     width: 370px;
     margin: 0 0 0 50px;
     text-align: start;
-    .personality-title {
-        font-weight: 700;
-        font-size: 24px;
-        text-transform: uppercase;
-        line-height: 52px;
-        margin: 0;
+    .main {
         color: #2D3033;
     }
     .profession-title {
@@ -529,14 +490,6 @@ button:active {
 }
 .stories {
     margin: 84px 0;
-    .stories__subtitle {
-        font-family: 'Kaushan Script';
-        font-weight: 400;
-        font-size: 30px;
-        margin: 0;
-        line-height: 80px;
-        padding: 0;
-    }
 }
 .b-container {
     position: relative;
@@ -549,15 +502,12 @@ button:active {
     gap: 30px;
     margin-top: 42px;
     .object {
-        .object-title {
-        font-weight: 700;
-        font-size: 24px;
-        text-transform: uppercase;
+        .main {
         line-height: 40px;
-        margin: 30px 0 0 0;
         color: #2D3033;
+        margin: 30px 0 0 0;
         }
-        .object-subtitle {
+        .object-text {
             margin: 0;
             padding: 8px 0 7px;
             text-align: start;
@@ -578,4 +528,161 @@ button:active {
 .object:first-child {
     margin-left: 14px;
 }
+.blog-background {
+    background-image: url(/image/map.jpg);
+    padding: 42px 0;
+    .title {
+        color: #F38281;
+    }
+}
+.footer {
+    margin: 0;
+}
+.connect {
+    padding-top: 42px;
+    .connect-text {
+       color: #C6CBCD;
+       margin: 0;
+       padding: 17px 0 18px;
+    }
+}
+.connect {
+    display: flex;
+    gap: 30px;
+    .MoGo {
+        width: 370px;
+        text-align: start;
+        .lg {
+            padding: 40px 0 22px;
+        }
+        .followers {
+            text-transform: uppercase;
+            margin: 0;
+            padding: 22px 0 16px;
+            .fifteen {
+                font-weight: 700;
+                font-size: 36px;
+            }
+            .k {
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .fans {
+                font-style: italic;
+            }
+        }
+        .gray-line {
+            margin: 0;
+        }
+        .follow {
+            display: flex;
+            gap: 30px;
+            // margin: 0;
+            .follow-text {
+                font-style: italic;
+                font-size: 13px;
+                line-height: 43px;
+                color: #C6CBCD;
+                margin: 0;
+            }
+            .link {
+                margin: auto auto auto 0;
+            }
+        }
+        .button {
+            margin: 37px 0 0;
+            input {
+                width: 236px;
+                border: 1px solid #C6CBCD;
+                border-right: none;
+            }
+            input::placeholder {
+                font-family: 'Raleway';
+                font-weight: 400;
+                font-size: 18px;
+                color: #C6CBCD;
+            }
+            .btn {
+                height: 55px;
+                font-weight: 700;
+                font-size: 18px;
+                background-color: #95E1D3;
+                border: none;
+            }
+            display: flex;
+            .btn {
+                width: 134px;
 
+            }
+        }
+    }
+    .blogs {
+        width: 470px;
+        text-align: start;
+        .main {
+            line-height: 100px;
+        }
+        .business {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 20px;
+            a {
+                height: 105px;
+            }
+            .news {
+                display: flex;
+                flex-direction: column;
+                .main {
+                    font-size: 18px;
+                    line-height: 21px;
+                    padding: 4px 0 3px;
+                }
+                .date {
+                    font-size: 13px;
+                    line-height: 35px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .business:last-child {
+        margin-bottom: 0;
+    }
+    .instagram {
+        width: 270px;
+        text-align: start;
+        .ref {
+            width: 270px;
+            font-size: 13px;
+            text-transform: uppercase;
+            line-height: 91px;
+            color: #2D3033;
+        }
+        .main {
+            line-height: 100px;
+        }
+        .block-img {
+            display: flex;
+            flex-wrap: wrap;
+            a {
+                height: 88px;
+            }
+        }
+    }
+}
+.gray {
+    width: 1170px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #C6CBCD;
+    margin-top: 42px;
+}
+.copyright {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}

@@ -5,13 +5,12 @@ body {
   font-weight: 400;
 }
 
-h3 {
+.main {
   text-transform: uppercase;
-  margin: 0 auto;
-  font-family: Raleway;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 81px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .header {
@@ -28,6 +27,14 @@ h3 {
   text-align: center;
   margin: 0 auto;
   position: relative;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 81px;
 }
 
 .nav {
@@ -270,13 +277,6 @@ button:active {
   margin-left: 33px;
 }
 
-.explanation .item-title {
-  text-transform: uppercase;
-  margin: 10px 0 11px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
 .explanation .item-subtitle {
   width: 270px;
   margin: 19px 0;
@@ -304,12 +304,11 @@ button:active {
   border-radius: 20px;
 }
 
-.page-subtitle {
+.b-subtitle {
   margin: 0;
   padding: 42px 0 0;
   font-family: Kaushan Script;
   font-size: 30px;
-  font-weight: 400;
   line-height: 81px;
 }
 
@@ -324,15 +323,6 @@ button:active {
   margin-bottom: 114px;
 }
 
-.service-subtitle {
-  margin: 0;
-  padding: 42px 0 0;
-  font-family: Kaushan Script;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 81px;
-}
-
 .process {
   gap: 30px;
   display: flex;
@@ -342,17 +332,13 @@ button:active {
   width: 570px;
 }
 
-.process .process-title {
+.process .details .main {
   width: 370px;
-  text-transform: uppercase;
   text-align: left;
-  margin: 0;
-  padding: 32px 0;
-  font-size: 24px;
-  font-weight: 700;
+  line-height: 92px;
 }
 
-.process .process-subtitle {
+.process .details .process-subtitle {
   text-align: start;
   border: 1px solid #c6cbcd;
   border-top: 0;
@@ -438,7 +424,7 @@ button:active {
   position: absolute;
 }
 
-.Jon {
+.name {
   height: 53px;
   margin: 0 0 0 56px;
   font-family: Kaushan Script;
@@ -456,12 +442,8 @@ button:active {
   display: flex;
 }
 
-.name-title {
-  text-transform: uppercase;
-  margin: 0;
-  padding: 26px 0;
-  font-size: 24px;
-  font-weight: 700;
+.pictures .main {
+  line-height: 80px;
 }
 
 .profession {
@@ -531,14 +513,6 @@ button:active {
   position: absolute;
 }
 
-.James {
-  height: 53px;
-  margin: 20px 0 0 56px;
-  font-family: Kaushan Script;
-  font-size: 30px;
-  font-weight: 400;
-}
-
 .clients {
   height: 923px;
   background-image: url("nature.921b9164.png");
@@ -549,15 +523,6 @@ button:active {
 .clients__background {
   height: 923px;
   background-color: #ffffffe6;
-}
-
-.clients__subtitle {
-  margin: 0;
-  padding: 42px 0 0;
-  font-family: Kaushan Script;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 81px;
 }
 
 .customers {
@@ -577,13 +542,8 @@ button:active {
   margin: 0 0 0 50px;
 }
 
-.personality .personality-title {
-  text-transform: uppercase;
+.personality .main {
   color: #2d3033;
-  margin: 0;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 52px;
 }
 
 .personality .profession-title {
@@ -601,15 +561,6 @@ button:active {
   margin: 84px 0;
 }
 
-.stories .stories__subtitle {
-  margin: 0;
-  padding: 0;
-  font-family: Kaushan Script;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 80px;
-}
-
 .b-container {
   width: 1184px;
   text-align: center;
@@ -623,16 +574,13 @@ button:active {
   display: flex;
 }
 
-.objects .object .object-title {
-  text-transform: uppercase;
+.objects .object .main {
   color: #2d3033;
   margin: 30px 0 0;
-  font-size: 24px;
-  font-weight: 700;
   line-height: 40px;
 }
 
-.objects .object .object-subtitle {
+.objects .object .object-text {
   text-align: start;
   margin: 0;
   padding: 8px 0 7px;
@@ -652,6 +600,193 @@ button:active {
 
 .object:first-child {
   margin-left: 14px;
+}
+
+.blog-background {
+  background-image: url("map.26b289df.jpg");
+  padding: 42px 0;
+}
+
+.blog-background .title {
+  color: #f38281;
+}
+
+.footer {
+  margin: 0;
+}
+
+.connect {
+  padding-top: 42px;
+}
+
+.connect .connect-text {
+  color: #c6cbcd;
+  margin: 0;
+  padding: 17px 0 18px;
+}
+
+.connect {
+  gap: 30px;
+  display: flex;
+}
+
+.connect .MoGo {
+  width: 370px;
+  text-align: start;
+}
+
+.connect .MoGo .lg {
+  padding: 40px 0 22px;
+}
+
+.connect .MoGo .followers {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 22px 0 16px;
+}
+
+.connect .MoGo .followers .fifteen {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.connect .MoGo .followers .k {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.connect .MoGo .followers .fans {
+  font-style: italic;
+}
+
+.connect .MoGo .gray-line {
+  margin: 0;
+}
+
+.connect .MoGo .follow {
+  gap: 30px;
+  display: flex;
+}
+
+.connect .MoGo .follow .follow-text {
+  color: #c6cbcd;
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 43px;
+}
+
+.connect .MoGo .follow .link {
+  margin: auto auto auto 0;
+}
+
+.connect .MoGo .button {
+  margin: 37px 0 0;
+  display: flex;
+}
+
+.connect .MoGo .button input {
+  width: 236px;
+  border: 1px solid #c6cbcd;
+  border-right: none;
+}
+
+.connect .MoGo .button input::placeholder {
+  color: #c6cbcd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.connect .MoGo .button .btn {
+  height: 55px;
+  width: 134px;
+  background-color: #95e1d3;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.connect .blogs {
+  width: 470px;
+  text-align: start;
+}
+
+.connect .blogs .main {
+  line-height: 100px;
+}
+
+.connect .blogs .business {
+  gap: 30px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.connect .blogs .business a {
+  height: 105px;
+}
+
+.connect .blogs .business .news {
+  flex-direction: column;
+  display: flex;
+}
+
+.connect .blogs .business .news .main {
+  padding: 4px 0 3px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.connect .blogs .business .news .date {
+  margin: 0;
+  font-size: 13px;
+  line-height: 35px;
+}
+
+.connect .business:last-child {
+  margin-bottom: 0;
+}
+
+.connect .instagram {
+  width: 270px;
+  text-align: start;
+}
+
+.connect .instagram .ref {
+  width: 270px;
+  text-transform: uppercase;
+  color: #2d3033;
+  font-size: 13px;
+  line-height: 91px;
+}
+
+.connect .instagram .main {
+  line-height: 100px;
+}
+
+.connect .instagram .block-img {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.connect .instagram .block-img a {
+  height: 88px;
+}
+
+.gray {
+  width: 1170px;
+  border: 0;
+  border-bottom: 1px solid #c6cbcd;
+  margin-top: 42px;
+}
+
+.copyright {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 50px;
 }
 
 /*# sourceMappingURL=index.8368275b.css.map */
