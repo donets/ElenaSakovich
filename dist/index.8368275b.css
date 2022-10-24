@@ -1,5 +1,6 @@
 body {
   width: 1510px;
+  margin: 0;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
@@ -8,12 +9,11 @@ body {
 .main {
   text-transform: uppercase;
   margin: 0;
-  font-size: 24px;
   font-weight: 700;
   line-height: 52px;
 }
 
-.header {
+header {
   background-image: url("bird.090f1c0d.png");
   background-size: cover;
 }
@@ -111,7 +111,6 @@ button {
   background-color: #0000;
   border: 4px solid #fff;
   padding: 0;
-  font-family: Raleway;
   font-size: 24px;
   font-weight: 700;
 }
@@ -154,14 +153,6 @@ button:active {
   margin: 0;
 }
 
-.lines .slider:first-child .orange-line {
-  width: 70px;
-  border: 0;
-  border-bottom: 4px solid #f38281;
-  margin: 0;
-  position: absolute;
-}
-
 .lines .slider:last-child {
   gap: 0;
   padding: 0;
@@ -184,6 +175,14 @@ button:active {
   line-height: 42px;
 }
 
+.small {
+  width: 70px;
+  border: 0;
+  border-bottom: 4px solid #f38281;
+  margin: 0;
+  position: absolute;
+}
+
 .data {
   margin: 42px 0;
 }
@@ -196,7 +195,7 @@ button:active {
   line-height: 81px;
 }
 
-.orange {
+.large {
   width: 166px;
   border: 2px solid #f38281;
   margin: 24px auto 0;
@@ -254,7 +253,7 @@ button:active {
   width: 170px;
 }
 
-.block {
+.services {
   margin: 0 0 91px;
 }
 
@@ -292,24 +291,24 @@ button:active {
   margin: 19px 0;
 }
 
-.page {
+.device {
   height: 868px;
   background-image: url("mountains.34f879a1.png");
   background-repeat: no-repeat;
   margin: 0;
 }
 
-.page-background {
+.device-background {
   height: 868px;
   background: #ffffff80;
 }
 
-.page-background .devices {
+.device-background .devices {
   margin: 59px 0 57px;
   position: relative;
 }
 
-.page-background .devices .tablet {
+.device-background .devices .tablet {
   border: 18px solid #000;
   border-radius: 20px;
 }
@@ -338,22 +337,35 @@ button:active {
   display: flex;
 }
 
+.process a {
+  display: inline-flex;
+}
+
 .process .details {
   width: 570px;
+}
+
+.process .details .details__description {
+  border: 1px solid #c6cbcd;
+  padding: 17px 23px;
+  display: flex;
+}
+
+.process .details .details__description .process-subtitle {
+  width: 463px;
+  text-align: start;
+  border-top: 0;
+  margin: 0;
+}
+
+.process .details .details__description img {
+  margin-left: 54px;
 }
 
 .process .details .main {
   width: 370px;
   text-align: left;
   line-height: 92px;
-}
-
-.process .details .process-subtitle {
-  text-align: start;
-  border: 1px solid #c6cbcd;
-  border-top: 0;
-  margin: 0;
-  padding: 18px 85px 18px 22px;
 }
 
 .icon {
@@ -368,22 +380,17 @@ button:active {
   margin-right: 20px;
 }
 
-.details-main {
-  height: 92px;
-  box-sizing: border-box;
-  border: 1px solid #c6cbcd;
-  align-items: center;
-  display: flex;
-}
-
-.details-title {
-  width: 570px;
+.details__item {
   height: 92px;
   box-sizing: border-box;
   border: 1px solid #c6cbcd;
   align-items: center;
   margin-top: 22px;
   display: flex;
+}
+
+.details__item:first-child {
+  margin-top: 0;
 }
 
 .cite {
@@ -395,6 +402,19 @@ button:active {
   width: 1147px;
   margin: 0 auto;
   padding: 42px 0;
+  display: flex;
+}
+
+.blockquote .left, .blockquote .right {
+  margin-top: 20px;
+}
+
+.blockquote .left {
+  margin-right: 46px;
+}
+
+.blockquote .right {
+  margin-left: 46px;
 }
 
 .review {
@@ -403,39 +423,37 @@ button:active {
   display: flex;
 }
 
-.review .right {
-  margin-left: 48px;
+.review .review__content {
+  flex-direction: column;
+  margin: 0 0 0 30px;
+  display: flex;
 }
 
 .idea {
   color: #a9afb1;
   width: 770px;
-  height: 96px;
   text-align: start;
-  margin: 0 0 0 30px;
+  margin: 0;
+  padding: 6px 0;
   font-size: 24px;
   font-style: italic;
   font-weight: 500;
 }
 
-.small-line {
-  width: 70px;
-  height: 1px;
-  border: 0;
-  border-bottom: 4px solid #f38281;
-  margin: 0;
-  padding-top: 23px;
+.info .small {
+  align-self: center;
+  position: relative;
 }
 
 .info {
-  margin-top: 117px;
-  margin-left: -349px;
-  display: inline-flex;
-  position: absolute;
+  margin-top: 21px;
+  display: flex;
 }
 
 .name {
   height: 53px;
+  text-align: start;
+  width: 644px;
   margin: 0 0 0 56px;
   font-family: Kaushan Script;
   font-size: 30px;
@@ -498,7 +516,7 @@ button:active {
 }
 
 .block-images {
-  margin: 84px 0;
+  margin: 84px 0 0;
 }
 
 .photos {
@@ -536,18 +554,25 @@ button:active {
 }
 
 .block-cite {
-  margin: 41px 0 40px;
+  margin: 84px 0;
 }
 
-.left {
-  margin-right: 45px;
+.block-cite .left, .block-cite .right {
+  margin-top: 20px;
 }
 
-.block-info {
-  margin-top: 98px;
-  margin-left: -287px;
-  display: inline-flex;
-  position: absolute;
+.block-cite .left {
+  margin-right: 46px;
+}
+
+.block-cite .right {
+  margin-left: 46px;
+}
+
+.block-cite .small {
+  height: 1px;
+  align-self: start;
+  padding-top: 11px;
 }
 
 .clients {
@@ -587,6 +612,10 @@ button:active {
   text-transform: uppercase;
   margin: 0 0 9px;
   line-height: 19px;
+}
+
+.personality .small {
+  position: relative;
 }
 
 .personality .about-photo {
@@ -680,12 +709,13 @@ button:active {
 .connect .MoGo {
   width: 370px;
   text-align: start;
+  display: block;
 }
 
 .connect .MoGo .followers {
   text-transform: uppercase;
   margin: 0;
-  padding: 22px 0 16px;
+  padding: 21px 0 16px;
 }
 
 .connect .MoGo .followers .fifteen {
@@ -703,6 +733,7 @@ button:active {
 }
 
 .connect .MoGo .gray-line {
+  border-top: 0;
   margin: 0;
 }
 
@@ -723,31 +754,25 @@ button:active {
   margin: auto auto auto 0;
 }
 
-.connect .MoGo .button {
+.connect .MoGo .form__content {
   margin: 37px 0 0;
   display: flex;
 }
 
-.connect .MoGo .button input {
+.connect .MoGo .form__content input {
   width: 236px;
+  height: 55px;
+  box-sizing: border-box;
   border: 1px solid #c6cbcd;
   border-right: none;
 }
 
-.connect .MoGo .button input::placeholder {
+.connect .MoGo .form__content input::placeholder {
   color: #c6cbcd;
+  text-align: center;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
-}
-
-.connect .MoGo .button .btn {
-  height: 55px;
-  width: 134px;
-  background-color: #95e1d3;
-  border: none;
-  font-size: 18px;
-  font-weight: 700;
 }
 
 .connect .blogs {
@@ -814,6 +839,26 @@ button:active {
 
 .connect .instagram .block-img a {
   height: 88px;
+}
+
+.btn {
+  width: 134px;
+  height: 55px;
+  background-color: #95e1d3;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #87d2c4;
+}
+
+.btn:active {
+  color: #fff;
+  background-color: #5c958a;
+  border: none;
 }
 
 .gray {
