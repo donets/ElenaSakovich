@@ -6,19 +6,22 @@ body {
   font-weight: 400;
 }
 
-.main {
+.secondary-title {
   text-transform: uppercase;
   margin: 0;
+  font-size: 24px;
   font-weight: 700;
   line-height: 52px;
 }
 
-header {
+.header {
+  height: 1024px;
   background-image: url("bird.090f1c0d.png");
   background-size: cover;
 }
 
 .header-background {
+  height: 1024px;
   background: linear-gradient(360deg, #edd789e6 0%, #e98283e6 100%);
 }
 
@@ -77,7 +80,7 @@ header {
   width: 27px;
 }
 
-.header__main {
+.header__title {
   height: 80px;
   color: #fff;
   margin: 77px auto 0;
@@ -89,18 +92,18 @@ header {
 
 .welcome {
   color: #fff;
-  margin: 10px 0;
-  padding: 10px 0;
+  margin: 0;
+  padding: 5px 0;
   font-family: Montserrat;
   font-size: 144px;
   font-weight: 700;
-  line-height: 175px;
+  line-height: 185px;
 }
 
 .divider {
   width: 170px;
   border: 2px solid #fff;
-  margin: 44px auto 74px;
+  margin: 40px auto 70px;
 }
 
 button {
@@ -127,49 +130,57 @@ button:active {
   border: 4px solid #e4be8d;
 }
 
-.lines {
+.header__lines {
   width: 1170px;
   text-transform: uppercase;
-  height: 85px;
   color: #fff;
   gap: 30px;
-  margin-top: 116px;
+  margin: 116px 0 0;
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
   display: flex;
 }
 
-.lines p {
+.header__lines p {
   margin: 5px auto;
   line-height: 45px;
 }
 
-.lines .slider:first-child .white {
-  width: 270px;
+.header__lines .header__item:first-child {
   color: #fff;
+}
+
+.header__lines .header__item:first-child .header__lines-line {
+  width: 270px;
   border: 0;
   border-bottom: 4px solid #fff;
   margin: 0;
 }
 
-.lines .slider:last-child {
+.header__lines .header__item:last-child {
   gap: 0;
   padding: 0;
 }
 
-.slider .beige {
+.header__item {
+  color: #f9efcf;
+}
+
+.header__item .header__lines-line {
   width: 266px;
   border: 2px solid #f9efcf;
   margin: 0;
 }
 
-.slider p {
+.header__item p {
   width: 270px;
   text-align: start;
+  margin: 0;
+  line-height: 85px;
 }
 
-.slider p span {
+.header__item p span {
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -192,7 +203,7 @@ button:active {
   padding: 0;
   font-family: Kaushan Script;
   font-size: 30px;
-  line-height: 81px;
+  line-height: 80px;
 }
 
 .large {
@@ -206,17 +217,17 @@ button:active {
   padding: 38px 0;
 }
 
-.images {
+.data__images {
   gap: 30px;
   margin: 58px 0 108px;
   display: flex;
 }
 
-.super {
+.data__img {
   position: relative;
 }
 
-.super .fond {
+.data__img .fond {
   position: absolute;
   top: -16px;
   left: -16px;
@@ -235,20 +246,25 @@ button:active {
   display: flex;
 }
 
-.numbers .number {
+.numbers .numbers__item {
   width: 234px;
   text-align: center;
   border: 1px solid #fff;
   padding: 37px 0 36px;
 }
 
-.numbers .number p span {
+.numbers .numbers__item p {
+  margin: 24px 0;
+}
+
+.numbers .numbers__item p .number {
+  color: #fff;
   font-size: 64px;
   font-weight: 700;
   line-height: 75px;
 }
 
-.number:first-child, .number:last-child {
+.numbers__item:first-child, .numbers__item:last-child {
   color: #95e1d3;
   width: 170px;
 }
@@ -257,36 +273,35 @@ button:active {
   margin: 0 0 91px;
 }
 
-.items {
+.services__items {
   flex-flow: wrap;
-  justify-content: center;
   margin: 88px auto 0;
   display: flex;
 }
 
-.items img {
+.services__items img {
   width: 63px;
   height: 55px;
 }
 
-.items .item {
+.services__items .services__item {
   width: 390px;
   margin-bottom: 148px;
   display: flex;
 }
 
-.items .item-bottom {
+.services__items .services__item-bottom {
   width: 390px;
   margin-bottom: 0;
   display: flex;
 }
 
-.explanation {
+.services__explanation {
   text-align: left;
   margin-left: 33px;
 }
 
-.explanation .item-subtitle {
+.services__explanation .item-subtitle {
   width: 270px;
   margin: 19px 0;
 }
@@ -303,12 +318,12 @@ button:active {
   background: #ffffff80;
 }
 
-.device-background .devices {
+.device-background .device__content {
   margin: 59px 0 57px;
   position: relative;
 }
 
-.device-background .devices .tablet {
+.device-background .device__content .tablet {
   border: 18px solid #000;
   border-radius: 20px;
 }
@@ -318,7 +333,7 @@ button:active {
   padding: 42px 0 0;
   font-family: Kaushan Script;
   font-size: 30px;
-  line-height: 81px;
+  line-height: 80px;
 }
 
 .phone {
@@ -332,37 +347,37 @@ button:active {
   margin-bottom: 114px;
 }
 
-.process {
+.service__content {
   gap: 30px;
   display: flex;
 }
 
-.process a {
+.service__content a {
   display: inline-flex;
 }
 
-.process .details {
+.service__content .details {
   width: 570px;
 }
 
-.process .details .details__description {
+.service__content .details .details__description {
   border: 1px solid #c6cbcd;
   padding: 17px 23px;
   display: flex;
 }
 
-.process .details .details__description .process-subtitle {
+.service__content .details .details__description .process-subtitle {
   width: 463px;
   text-align: start;
   border-top: 0;
   margin: 0;
 }
 
-.process .details .details__description img {
+.service__content .details .details__description img {
   margin-left: 54px;
 }
 
-.process .details .main {
+.service__content .details .secondary-title {
   width: 370px;
   text-align: left;
   line-height: 92px;
@@ -429,7 +444,7 @@ button:active {
   display: flex;
 }
 
-.idea {
+.review__subtitle {
   color: #a9afb1;
   width: 770px;
   text-align: start;
@@ -451,9 +466,9 @@ button:active {
 }
 
 .name {
+  width: 644px;
   height: 53px;
   text-align: start;
-  width: 644px;
   margin: 0 0 0 56px;
   font-family: Kaushan Script;
   font-size: 30px;
@@ -464,54 +479,64 @@ button:active {
   margin: 84px 0;
 }
 
-.pictures {
+.team .large {
+  height: 0;
+}
+
+.team .pictures {
   gap: 30px;
   margin-top: 58px;
   display: flex;
 }
 
-.pictures .Kadin-bg {
+.team .pictures .secondary-title {
+  line-height: 80px;
+}
+
+.team .pictures .pictures__subtitle {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 5px 0;
+  line-height: 20px;
+}
+
+.team .pictures .pictures-bg {
+  height: 424px;
   position: relative;
 }
 
-.pictures .Kadin-bg .gradient {
+.team .pictures .pictures-bg .gradient {
   position: absolute;
   top: -16px;
   left: -16px;
 }
 
-.pictures .Kadin-bg .links {
+.team .pictures .pictures-bg .links {
   position: absolute;
   top: 191px;
   right: 99px;
 }
 
-.pictures .main {
-  line-height: 80px;
-}
-
-.profession {
-  text-transform: uppercase;
-  margin: 0;
-  padding: 5px 0;
-}
-
-.logo {
+.logos {
   background-color: #f8f8f8;
   padding: 65px 0;
 }
 
-.logo .logos {
+.logos .logos__content {
   width: 1170px;
   margin: 0 auto;
   display: flex;
 }
 
-.logo .logos .figures {
-  padding: 0 143px 0 0;
+.logos .logos__content .image {
+  padding: 0 137px 0 31px;
 }
 
-.logo .logos .figure {
+.logos .logos__content .logos__images {
+  padding: 0 137px 0 0;
+}
+
+.logos .logos__content .img {
   padding: 0 35px 0 0;
 }
 
@@ -519,57 +544,44 @@ button:active {
   margin: 84px 0 0;
 }
 
-.photos {
+.work__content {
   margin: 0;
   display: flex;
 }
 
-.photos a, .photos a img {
-  width: 378px;
-  height: 378px;
-}
-
-.photos .build .sky-bg {
-  position: relative;
-}
-
-.photos .build .sky-bg .sky-design {
-  width: 378px;
-  height: 378px;
-  position: absolute;
-  left: 0;
-}
-
-.work, .build, .houses {
+.work__content .work__item {
   flex-flow: column wrap;
   display: flex;
 }
 
-.building {
+.work__content a, .work__content a img {
+  width: 378px;
+  height: 378px;
+}
+
+.work__images {
   display: flex;
 }
 
-.building .construction {
+.work__images .image {
   height: 756px;
 }
 
-.block-cite {
+.quote {
   margin: 84px 0;
 }
 
-.block-cite .left, .block-cite .right {
+.quote .left {
   margin-top: 20px;
-}
-
-.block-cite .left {
   margin-right: 46px;
 }
 
-.block-cite .right {
+.quote .right {
+  margin-top: 20px;
   margin-left: 46px;
 }
 
-.block-cite .small {
+.quote .small {
   height: 1px;
   align-self: start;
   padding-top: 11px;
@@ -579,7 +591,10 @@ button:active {
   height: 923px;
   background-image: url("nature.921b9164.png");
   background-repeat: no-repeat;
-  margin: 0;
+}
+
+.clients .large {
+  margin: 20px auto 0;
 }
 
 .clients__background {
@@ -587,94 +602,100 @@ button:active {
   background-color: #ffffffe6;
 }
 
-.customers {
+.clients__content {
   justify-content: center;
   gap: 50px;
   margin-top: 42px;
   display: flex;
 }
 
-.couple .man, .couple .woman {
+.clients__content .clients__item {
   display: flex;
 }
 
-.personality {
+.clients__content .clients__item img {
+  height: 130px;
+  padding-top: 20px;
+}
+
+.clients__content .clients__item .clients__info {
   width: 370px;
   text-align: start;
   margin: 0 0 0 50px;
 }
 
-.personality .main {
+.clients__content .clients__item .clients__info .secondary-title {
   color: #2d3033;
 }
 
-.personality .profession-title {
+.clients__content .clients__item .clients__info .clients__title {
   text-transform: uppercase;
-  margin: 0 0 9px;
+  margin: 0 0 28px;
   line-height: 19px;
 }
 
-.personality .small {
+.clients__content .clients__item .clients__info .small {
   position: relative;
 }
 
-.personality .about-photo {
-  margin: 0;
-  padding: 38px 0 39px;
+.clients__content .clients__item .clients__info .clients__comment {
+  margin: 32px 0 42px;
+  padding: 23px 0 22px;
+  line-height: 21px;
 }
 
 .stories {
-  margin: 84px 0;
+  padding: 84px 0;
 }
 
-.b-container {
+.stories__container {
   width: 1184px;
   text-align: center;
   margin: 0 auto;
   position: relative;
 }
 
-.objects {
+.stories__content {
   gap: 30px;
   margin-top: 42px;
   display: flex;
 }
 
-.objects .object .date-object {
+.stories__content .date-item {
   position: relative;
 }
 
-.objects .object .date-object .date {
+.stories__content .date-item .date {
   position: absolute;
   top: 148px;
   left: -14px;
 }
 
-.objects .object .main {
+.stories__content .secondary-title {
   color: #2d3033;
   margin: 30px 0 0;
   line-height: 40px;
 }
 
-.objects .object .object-text {
+.stories__content .about {
   text-align: start;
   margin: 0;
   padding: 8px 0 7px;
 }
 
-.objects .statistics {
+.stories__statistics {
   gap: 18px;
   margin: 19px 0 0 2px;
   display: flex;
 }
 
-.objects .statistics .amount {
+.stories__statistics .amount {
   margin: 3px;
   padding: 0;
   font-size: 13px;
 }
 
-.object:first-child {
+.stories__item:first-child {
   margin-left: 14px;
 }
 
@@ -689,60 +710,51 @@ button:active {
 
 .footer {
   margin: 0;
+  padding: 42px 0 0;
 }
 
-.connect {
-  padding-top: 42px;
-}
-
-.connect .connect-text {
-  color: #c6cbcd;
-  margin: 0;
-  padding: 17px 0 18px;
-}
-
-.connect {
+.footer__content {
   gap: 30px;
   display: flex;
 }
 
-.connect .MoGo {
+.footer__content .connection {
   width: 370px;
   text-align: start;
   display: block;
 }
 
-.connect .MoGo .followers {
+.footer__content .connection .connection__followers {
   text-transform: uppercase;
   margin: 0;
   padding: 21px 0 16px;
 }
 
-.connect .MoGo .followers .fifteen {
+.footer__content .connection .connection__followers .fifteen {
   font-size: 36px;
   font-weight: 700;
 }
 
-.connect .MoGo .followers .k {
+.footer__content .connection .connection__followers .k {
   font-size: 18px;
   font-weight: 700;
 }
 
-.connect .MoGo .followers .fans {
+.footer__content .connection .connection__followers .fans {
   font-style: italic;
 }
 
-.connect .MoGo .gray-line {
+.footer__content .connection .gray-line {
   border-top: 0;
   margin: 0;
 }
 
-.connect .MoGo .follow {
+.footer__content .connection .connection__links {
   gap: 30px;
   display: flex;
 }
 
-.connect .MoGo .follow .follow-text {
+.footer__content .connection .connection__links .connection__subtitle {
   color: #c6cbcd;
   margin: 0;
   font-size: 13px;
@@ -750,16 +762,16 @@ button:active {
   line-height: 43px;
 }
 
-.connect .MoGo .follow .link {
+.footer__content .connection .connection__links .connection__link {
   margin: auto auto auto 0;
 }
 
-.connect .MoGo .form__content {
+.footer__content .connection .form__content {
   margin: 37px 0 0;
   display: flex;
 }
 
-.connect .MoGo .form__content input {
+.footer__content .connection .form__content .form__input {
   width: 236px;
   height: 55px;
   box-sizing: border-box;
@@ -767,7 +779,7 @@ button:active {
   border-right: none;
 }
 
-.connect .MoGo .form__content input::placeholder {
+.footer__content .connection .form__content .form__input::placeholder {
   color: #c6cbcd;
   text-align: center;
   font-family: Raleway;
@@ -775,52 +787,48 @@ button:active {
   font-weight: 400;
 }
 
-.connect .blogs {
+.footer__content .blogs {
   width: 470px;
   text-align: start;
 }
 
-.connect .blogs .main {
+.footer__content .blogs .secondary-title {
   line-height: 100px;
 }
 
-.connect .blogs .business {
+.footer__content .blogs .blogs__content {
   gap: 30px;
   margin-bottom: 20px;
   display: flex;
 }
 
-.connect .blogs .business a {
-  height: 105px;
-}
-
-.connect .blogs .business .news {
+.footer__content .blogs .blogs__content .blogs__item {
   flex-direction: column;
   display: flex;
 }
 
-.connect .blogs .business .news .main {
+.footer__content .blogs .blogs__content .blogs__item .secondary-title {
   padding: 4px 0 3px;
   font-size: 18px;
   line-height: 21px;
 }
 
-.connect .blogs .business .news .date {
+.footer__content .blogs .blogs__content .blogs__item .blogs__date {
   margin: 0;
   font-size: 13px;
   line-height: 35px;
 }
 
-.connect .business:last-child {
+.footer__content .blogs__content:last-child {
   margin-bottom: 0;
 }
 
-.connect .instagram {
+.footer__content .instagram {
   width: 270px;
   text-align: start;
 }
 
-.connect .instagram .ref {
+.footer__content .instagram .instagram__link {
   width: 270px;
   text-transform: uppercase;
   color: #2d3033;
@@ -828,20 +836,16 @@ button:active {
   line-height: 91px;
 }
 
-.connect .instagram .main {
+.footer__content .instagram .secondary-title {
   line-height: 100px;
 }
 
-.connect .instagram .block-img {
+.footer__content .instagram .instagram__images {
   flex-wrap: wrap;
   display: flex;
 }
 
-.connect .instagram .block-img a {
-  height: 88px;
-}
-
-.btn {
+.form__btn {
   width: 134px;
   height: 55px;
   background-color: #95e1d3;
@@ -850,28 +854,23 @@ button:active {
   font-weight: 700;
 }
 
-.btn:hover {
+.form__btn:hover {
   color: #fff;
   background-color: #87d2c4;
 }
 
-.btn:active {
+.form__btn:active {
   color: #fff;
   background-color: #5c958a;
   border: none;
 }
 
-.gray {
-  width: 1170px;
-  border: 0;
-  border-bottom: 1px solid #c6cbcd;
-  margin: 42px 0 0;
-}
-
 .copyright {
   text-transform: uppercase;
   text-align: center;
-  margin: 0;
+  width: 1168px;
+  border-top: 1px solid #c6cbcd;
+  margin: 42px auto 0;
   font-size: 13px;
   font-weight: 700;
   line-height: 50px;
