@@ -487,23 +487,48 @@ button:active {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    a {
-        width: 378px;
-        height: 378px;
         img {
             width: 378px;
             height: 378px;
         }
+    .work__bg {
+        position: relative;
+        .work-bg {
+            position: absolute;
+            width: 100%;
+            height: 378px;
+            left: 0;
+            top: 0;
+        }
+        .work__image {
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            top: 0;
+            right: 0;
+            margin: 121px 168px 57px;
+            color: #F9EFCF;
+        }
+        .secondary-title {
+            position: absolute;
+            top: 217px;
+            line-height: 50px;
+            width: 378px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #fff;
+            
+        }
+        .work__about {
+            position: absolute;
+            top: 267px;
+            line-height: 30px;
+            width: 378px;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+        }
     }
-    // .work-bg {
-        // position: relative;
-        // .sky-design {
-        //     position: absolute;
-        //     left: 0;
-        //     width: 378px;
-        //     height: 378px;
-        // }
-    // }
 }
 .work__images {
     display: flex;
